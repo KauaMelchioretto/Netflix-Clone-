@@ -1,7 +1,6 @@
-const BASE_PARAMS = `language=pt-BR&api_key=${process.env.API_KEY}`;
-
+const BASE_PARAMS = `language=pt-BR&api_key=${process.env.REACT_APP_API_KEY}`;
 const basicFetch = async(endPoint) => {
-  const req = await fetch(`${process.env.API_BASE}${endPoint}`);
+  const req = await fetch(`${process.env.REACT_APP_API_BASE}${endPoint}`);
   return req.json();
 }
 

@@ -4,7 +4,6 @@ import api from './api';
 import MovieRow from './components/MovieRow'
 import FeaturedMovie from './components/FeaturedMovie.jsx';
 
-
 function App() {
   const [featuredData, setFeaturedData] = useState(null);
   const [movieList, setMovieList] = useState([]);
